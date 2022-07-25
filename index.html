@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css">
+        <script src="./scripts/dom.js" type="module" defer></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <main>
+            <div class="heading__container">
+                <h1 class="heading__container--title">Morse Code Translator</h1>
+                <p class="heading__container--desc"></p>
+            </div>
+            <div class="translator">
+              <!-- English -->
+              <div class="translator__english">
+                <h2 class="translator__english--heading">English</h2>
+                <textarea id="english" class="translator__english--textarea" cols="60" rows="10"></textarea>
+              </div>
+              <!-- Morse -->
+              <div class="translator__morse">
+                <h2 class="translator__morse--heading">Morse</h2>
+                <!-- Input -->
+                    <textarea id="morseCode" class="translator__morse--textarea" cols="60" rows="10">
+
+                    </textarea>
+                  <!-- Buttons -->
+                  <div class="translator__morse--buttons">
+<button class="translator__morse--buttons-btn" hidden></button>
+<button class="translator__morse--buttons-btn" hidden></button>
+<button class="translator__morse--buttons-btn" hidden></button>
+<button class="translator__morse--buttons-btn" hidden></button>
+                  </div>
+              </div>
+            </div>
+        </div>
+    </body>
+<script type="module" src="./scripts/script.js" ></script>
+</html>

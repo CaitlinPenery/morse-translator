@@ -1,0 +1,52 @@
+@use "./partials/palette";
+@use "./partials/mixins";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: palette.$color-four;
+}
+
+.heading__container {
+    @include mixins.flex(column, center, center, nowrap);
+    color: palette.$color-one;
+    padding: 40px;
+}
+
+.translator {
+    @include mixins.flex(column, center, center, nowrap);
+    &__english {
+        @include mixins.flex(column, center, center, nowrap);
+        padding-bottom: 30px;
+        &--heading {
+            color: palette.$color-two;
+            padding: 15px;
+        }
+        &--textarea {
+            font-size: 120%;
+        }
+    }
+    &__morse {
+        @include mixins.flex(column, center, center, nowrap);
+        &--heading {
+            color: palette.$color-two;
+            padding: 15px;
+        }
+        &--buttons {
+            @include mixins.flex(row, center, center, wrap);
+            padding: 20px;
+            &-btn {
+                background-color: palette.$color-one;
+                border-radius: 15px;
+                width: 40px;
+                height: 40px;
+            }
+        }
+        &--textarea {
+            font-size: 120%;
+        }
+    }
+}
