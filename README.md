@@ -28,8 +28,10 @@ A web page with a basic UI that translate between Morse Code and English.
 ## Plan
 
 1. HTML layout and CSS styling.
+    - A text box for morse and english input/output.
 2. JavaScript
     - Morse/English Object Array
     - DOM intergration
+        - eventListener for Text Fields
     - Function to translate between Morse Code and English
 3. JavaScript Testing
