@@ -35,3 +35,9 @@ A web page with a basic UI that translate between Morse Code and English.
         - eventListener for Text Fields
     - Function to translate between Morse Code and English
 3. JavaScript Testing
+
+# ToDo
+
+-   [ ] Limit morse code input to buttons to prevent user error.
+-   [ ] Display a user guide.
+-   [ ] Refresh button.
