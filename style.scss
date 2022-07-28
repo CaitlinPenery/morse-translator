@@ -35,8 +35,8 @@ body {
             width: 600px;
             height: 200px;
             @include devices.sm {
-                width: 350px;
-                height: 300px;
+                width: 300px;
+                height: 250px;
             }
         }
     }
@@ -63,8 +63,8 @@ body {
             height: 200px;
 
             @include devices.sm {
-                width: 350px;
-                height: 300px;
+                width: 300px;
+                height: 250px;
             }
         }
     }
