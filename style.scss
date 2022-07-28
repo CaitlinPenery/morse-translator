@@ -32,7 +32,7 @@ body {
         }
         &--textarea {
             font-size: 120%;
-            width: 600px;
+            width: 550px;
             height: 200px;
             @include devices.sm {
                 width: 300px;
@@ -59,7 +59,7 @@ body {
         }
         &--textarea {
             font-size: 120%;
-            width: 600px;
+            width: 550px;
             height: 200px;
 
             @include devices.sm {

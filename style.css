@@ -42,7 +42,7 @@ body {
 }
 .translator__english--textarea {
   font-size: 120%;
-  width: 600px;
+  width: 550px;
   height: 200px;
 }
 @media only screen and (max-width: 768px) {
@@ -79,7 +79,7 @@ body {
 }
 .translator__morse--textarea {
   font-size: 120%;
-  width: 600px;
+  width: 550px;
   height: 200px;
 }
 @media only screen and (max-width: 768px) {
