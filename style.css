@@ -38,6 +38,14 @@ body {
 }
 .translator__english--textarea {
   font-size: 120%;
+  width: 600px;
+  height: 200px;
+}
+@media only screen and (max-width: 768px) {
+  .translator__english--textarea {
+    width: 400px;
+    height: 150px;
+  }
 }
 .translator__morse {
   display: flex;
@@ -66,4 +74,12 @@ body {
 }
 .translator__morse--textarea {
   font-size: 120%;
+  width: 600px;
+  height: 200px;
+}
+@media only screen and (max-width: 768px) {
+  .translator__morse--textarea {
+    width: 400px;
+    height: 150px;
+  }
 }

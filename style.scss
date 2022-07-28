@@ -1,5 +1,6 @@
 @use "./partials/palette";
 @use "./partials/mixins";
+@use "./partials/devices";
 
 * {
     padding: 0;
@@ -27,6 +28,12 @@ body {
         }
         &--textarea {
             font-size: 120%;
+            width: 600px;
+            height: 200px;
+            @include devices.sm {
+                width: 400px;
+                height: 150px;
+            }
         }
     }
     &__morse {
@@ -47,6 +54,13 @@ body {
         }
         &--textarea {
             font-size: 120%;
+            width: 600px;
+            height: 200px;
+
+            @include devices.sm {
+                width: 400px;
+                height: 150px;
+            }
         }
     }
 }

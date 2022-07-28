@@ -38,6 +38,7 @@ A web page with a basic UI that translate between Morse Code and English.
 
 # ToDo
 
+-   [ ] Fix dynamic display for mobile.
 -   [ ] Limit morse code input to buttons to prevent user error.
 -   [ ] Display a user guide.
 -   [ ] Refresh button.
