@@ -14,7 +14,8 @@ body {
 .heading__container {
     @include mixins.flex(column, center, center, nowrap);
     color: palette.$color-one;
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .translator {
@@ -32,7 +33,7 @@ body {
             height: 200px;
             @include devices.sm {
                 width: 400px;
-                height: 150px;
+                height: 300px;
             }
         }
     }
@@ -59,7 +60,7 @@ body {
 
             @include devices.sm {
                 width: 400px;
-                height: 150px;
+                height: 300px;
             }
         }
     }

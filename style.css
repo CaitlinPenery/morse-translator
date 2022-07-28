@@ -14,7 +14,8 @@ body {
   align-items: center;
   flex-wrap: nowrap;
   color: #ff6d24;
-  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .translator {
@@ -44,7 +45,7 @@ body {
 @media only screen and (max-width: 768px) {
   .translator__english--textarea {
     width: 400px;
-    height: 150px;
+    height: 300px;
   }
 }
 .translator__morse {
@@ -80,6 +81,6 @@ body {
 @media only screen and (max-width: 768px) {
   .translator__morse--textarea {
     width: 400px;
-    height: 150px;
+    height: 300px;
   }
 }
