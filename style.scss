@@ -16,6 +16,8 @@ body {
     color: palette.$color-one;
     padding-top: 40px;
     padding-bottom: 40px;
+    font-size: 100%;
+    text-align: center;
 }
 
 .translator {
@@ -26,13 +28,14 @@ body {
         &--heading {
             color: palette.$color-two;
             padding: 15px;
+            font-size: 150%;
         }
         &--textarea {
             font-size: 120%;
             width: 600px;
             height: 200px;
             @include devices.sm {
-                width: 400px;
+                width: 350px;
                 height: 300px;
             }
         }
@@ -42,6 +45,7 @@ body {
         &--heading {
             color: palette.$color-two;
             padding: 15px;
+            font-size: 150%;
         }
         &--buttons {
             @include mixins.flex(row, center, center, wrap);
@@ -59,7 +63,7 @@ body {
             height: 200px;
 
             @include devices.sm {
-                width: 400px;
+                width: 350px;
                 height: 300px;
             }
         }

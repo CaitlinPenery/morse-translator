@@ -16,6 +16,8 @@ body {
   color: #ff6d24;
   padding-top: 40px;
   padding-bottom: 40px;
+  font-size: 100%;
+  text-align: center;
 }
 
 .translator {
@@ -36,6 +38,7 @@ body {
 .translator__english--heading {
   color: #4e413b;
   padding: 15px;
+  font-size: 150%;
 }
 .translator__english--textarea {
   font-size: 120%;
@@ -44,7 +47,7 @@ body {
 }
 @media only screen and (max-width: 768px) {
   .translator__english--textarea {
-    width: 400px;
+    width: 350px;
     height: 300px;
   }
 }
@@ -58,6 +61,7 @@ body {
 .translator__morse--heading {
   color: #4e413b;
   padding: 15px;
+  font-size: 150%;
 }
 .translator__morse--buttons {
   display: flex;
@@ -80,7 +84,7 @@ body {
 }
 @media only screen and (max-width: 768px) {
   .translator__morse--textarea {
-    width: 400px;
+    width: 350px;
     height: 300px;
   }
 }
