@@ -8,7 +8,7 @@ A web page with a basic UI that translate between Morse Code and English.
 
 ## Screenshot
 
-<img src="" width=100>
+<img src="images\Screenshot 2022-08-06 160715.png" width=100>
 
 ## Implementation
 
@@ -42,3 +42,4 @@ A web page with a basic UI that translate between Morse Code and English.
 -   [ ] Limit morse code input to buttons to prevent user error.
 -   [ ] Display a user guide.
 -   [ ] Refresh button.
+-   [ ] Limit input and output length.
